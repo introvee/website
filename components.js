@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     headerContainer.innerHTML = `
       <header class="site-header">
         <div class="container">
-          <a href="${basePath}/index.html" class="logo">
+          <a href="/" class="logo">
             <img src="${basePath}/assets/icon.png" class="logo-icon-img" alt="Introvee Icon">
             Introvee
           </a>
@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
           
           <nav>
             <ul class="nav-links">
-              <li><a href="${basePath}/index.html#about">About</a></li>
-              <li><a href="${basePath}/index.html#features">Features</a></li>
-              <li><a href="${basePath}/index.html#how-it-works">How It Works</a></li>
-              <li><a href="${basePath}/support/index.html">Support</a></li>
+              <li><a href="/#about">About</a></li>
+              <li><a href="/#features">Features</a></li>
+              <li><a href="/#how-it-works">How It Works</a></li>
+              <li><a href="/support">Support</a></li>
             </ul>
           </nav>
         </div>
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="container">
           <div class="footer-grid">
             <div class="footer-brand">
-              <a href="${basePath}/index.html" class="logo">
+              <a href="/" class="logo">
                 <img src="${basePath}/assets/icon.png" class="logo-icon-img" alt="Introvee Icon">
                 Introvee
               </a>
@@ -55,16 +55,16 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="footer-links">
               <h4>Legal</h4>
               <ul>
-                <li><a href="${basePath}/privacy-policy/index.html">Privacy Policy</a></li>
-                <li><a href="${basePath}/terms/index.html">Terms & Conditions</a></li>
+                <li><a href="/privacy">Privacy Policy</a></li>
+                <li><a href="/terms">Terms & Conditions</a></li>
               </ul>
             </div>
             
             <div class="footer-links">
               <h4>Support</h4>
               <ul>
-                <li><a href="${basePath}/support/index.html">Help & Support</a></li>
-                <li><a href="${basePath}/delete-account/index.html">Delete Account</a></li>
+                <li><a href="/support">Help & Support</a></li>
+                <li><a href="/delete-account">Delete Account</a></li>
                 <li><a href="mailto:support@introvee.com">Contact Us</a></li>
               </ul>
             </div>
